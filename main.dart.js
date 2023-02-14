@@ -13077,7 +13077,7 @@ _.d=d
 _.e=e
 _.f=f},
 Tr:function Tr(){},
-eX(a,b,c,d,e){return new A.A8(a,b,e,d,c,null)},
+eX(a,b,c,d,e,f){return new A.A8(a,c,f,e,b,d,null)},
 Ac(a){var s=a.ji(t.Np)
 if(s!=null)return s
 throw A.h(A.JD(A.a([A.qZ("Scaffold.of() called with a context that does not contain a Scaffold."),A.bl("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.a2L('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.a2L("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.acp("The context used was")],t.F)))},
@@ -13180,13 +13180,14 @@ _.b=c
 _.c=null},
 aiM:function aiM(a,b){this.a=a
 this.b=b},
-A8:function A8(a,b,c,d,e,f){var _=this
+A8:function A8(a,b,c,d,e,f,g){var _=this
 _.e=a
 _.f=b
 _.w=c
 _.Q=d
-_.CW=e
-_.a=f},
+_.ch=e
+_.CW=f
+_.a=g},
 tf:function tf(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -44895,7 +44896,7 @@ r=k.a.e
 if(r==null){r=s.R8.z
 r=A.vS(j,j,!0,j,j,j,1,j,j,j,!1,j,j,j,j,j,!0,j,j,j,j,j,j,new A.DK(q,p,r==null?s.p2:r,j),j,j,j,1,j)
 m=A.nx(B.zq)
-l=A.eX(r,A.dz(A.er(B.D,!0,j,A.cl(j,A.axh(A.ayg(A.MO(a).O5(!1),A.ayi(A.axf(i,n),j)),a,B.jc),B.l,j,m,j,j,j,j,j,j,j,j,j),B.l,s.at,4,j,j,j,j,j,B.bj),j,j),j,j,j)}else l=A.awg(B.R,r,j,j,!1,B.aa,!1,A.a([new A.AD(!1,new A.DK(q,p,s.p3,j),s.at,!0,j),new A.tC(n,A.atv(new A.AE(new A.alG(i),i.length,!0,!0,!0,j)),j)],t.p))
+l=A.eX(r,j,A.dz(A.er(B.D,!0,j,A.cl(j,A.axh(A.ayg(A.MO(a).O5(!1),A.ayi(A.axf(i,n),j)),a,B.jc),B.l,j,m,j,j,j,j,j,j,j,j,j),B.l,s.at,4,j,j,j,j,j,B.bj),j,j),j,j,j)}else l=A.awg(B.R,r,j,j,!1,B.aa,!1,A.a([new A.AD(!1,new A.DK(q,p,s.p3,j),s.at,!0,j),new A.tC(n,A.atv(new A.AE(new A.alG(i),i.length,!0,!0,!0,j)),j)],t.p))
 i=s.p3.Q
 i.toString
 return A.fK(l,j,j,B.bm,!0,i,j,j,B.aj)}}
@@ -45026,7 +45027,7 @@ $2(a,b){return this.a.a.EJ(a,b)},
 $S:119}
 A.RV.prototype={
 D(a){var s=null
-return A.eX(A.vS(B.j8,s,!0,s,s,s,1,s,s,s,!1,s,s,s,this.e,s,!0,s,s,s,s,s,s,this.d,s,s,s,1,s),this.c.$2(a,!1),s,s,s)}}
+return A.eX(A.vS(B.j8,s,!0,s,s,s,1,s,s,s,!1,s,s,s,this.e,s,!0,s,s,s,s,s,s,this.d,s,s,s,1,s),s,this.c.$2(a,!1),s,s,s)}}
 A.Dk.prototype={
 Y(){return new A.Dl(A.cs(null,t.X),B.h)},
 EJ(a,b){return this.c.$2(a,b)}}
@@ -45063,7 +45064,7 @@ o=t.p
 r=A.vS(s,m,!0,m,m,new A.LP(A.h1(A.a([new A.dB(q,A.m2(A.cl(B.hF,A.axE(m,n.a.e.$2(a,B.a_Y),B.wY,B.bD,0,8),B.l,m,m,m,m,m,m,m,B.bt,m,m,m),p.p1,m),m)],o),B.t,B.A,B.E),B.SG,m),1,m,m,m,!1,m,m,m,m,m,!0,m,m,m,m,m,m,r,m,m,m,1,m)
 p=n.r
 s=n.a.EJ(a,!0)
-l=A.eX(r,new A.dB(new A.aa(0,p,0,1/0),s,m),m,m,l)
+l=A.eX(r,m,new A.dB(new A.aa(0,p,0,1/0),s,m),m,m,l)
 s=n.r
 r=n.f
 r===$&&A.b()
@@ -52269,8 +52270,11 @@ j.gm3()
 e=e!==0?0:i
 k=g.r.wc(e)
 if(l.d<=0)j.a.toString
-e=j.a.Q
-return new A.Ub(e!=null,new A.Ai(A.er(B.D,!0,i,A.fG(j.ch,new A.aaM(h,j,!1,l,k,s,r),i),B.l,f.go,0,i,i,i,i,i,B.bj),i),i)}}
+e=j.a
+q=e.Q
+e=e.ch
+if(e==null)e=f.go
+return new A.Ub(q!=null,new A.Ai(A.er(B.D,!0,i,A.fG(j.ch,new A.aaM(h,j,!1,l,k,s,r),i),B.l,e,0,i,i,i,i,i,B.bj),i),i)}}
 A.aaI.prototype={
 $0(){this.a.w.zj(0,this.b)},
 $S:0}
@@ -81409,7 +81413,7 @@ A.xo.prototype={
 Y(){return new A.Rd(A.il(null),A.il(null),B.h)}}
 A.Rd.prototype={
 D(a){var s=this,r=null
-return A.eX(r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/cactus.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.ajr(s),B.eB,s.f),new A.cd($.avo(),new A.ajs(s),r,r,t.x_),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
+return A.eX(r,r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/cactus.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.ajr(s),B.eB,s.f),new A.cd($.avo(),new A.ajs(s),r,r,t.x_),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
 A.ajr.prototype={
 $1(a){var s=this.a
 s.a_(new A.ajq(s,a))},
@@ -81458,7 +81462,7 @@ s=1
 break}case 1:return A.a5(q,r)}})
 return A.a6($async$yE,r)},
 D(a){var s=this,r=null
-return A.eX(r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/send.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.ajL(s),B.eB,s.f),A.e4(B.YE,new A.ajM(s,a),r),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
+return A.eX(r,r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/send.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.ajL(s),B.eB,s.f),A.e4(B.YE,new A.ajM(s,a),r),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
 A.ajL.prototype={
 $1(a){var s=this.a
 s.a_(new A.ajK(s,a))},
@@ -81479,7 +81483,7 @@ A.zk.prototype={
 Y(){return new A.Tl(A.il(null),A.il(null),B.h)}}
 A.Tl.prototype={
 D(a){var s=this,r=null
-return A.eX(r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/get.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.am6(s),B.eB,s.f),new A.cd($.as1(),new A.am7(s),r,r,t.x_),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
+return A.eX(r,r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/get.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.am6(s),B.eB,s.f),new A.cd($.as1(),new A.am7(s),r,r,t.x_),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
 A.am6.prototype={
 $1(a){var s=this.a
 s.a_(new A.am5(s,a))},
@@ -81514,7 +81518,7 @@ A.As.prototype={
 Y(){return new A.Up(A.il(null),A.il(null),B.h)}}
 A.Up.prototype={
 D(a){var s=this,r=null
-return A.eX(r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/bag.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.anv(s),B.eB,s.f),A.e4(B.Yo,new A.anw(s),r),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
+return A.eX(r,r,new A.aW(B.bg,A.bx(A.a([A.iX("assets/images/beginner_app/bag.png",200),B.aP,A.im(s.d,B.dJ,r),B.az,A.im(s.e,B.dI,r),B.az,A.H8(new A.anv(s),B.eB,s.f),A.e4(B.Yo,new A.anw(s),r),B.aP],t.p),B.t,B.A,B.aM),r),r,r,r)}}
 A.anv.prototype={
 $1(a){var s=this.a
 s.a_(new A.anu(s,a))},
@@ -81537,7 +81541,7 @@ A.AS.prototype={
 Y(){return new A.UU(A.il(null),A.il(null),B.h)}}
 A.UU.prototype={
 D(a){var s=null
-return A.eX(s,new A.aW(B.bg,new A.cd($.as1(),new A.anV(this),s,s,t.x_),s),s,s,s)}}
+return A.eX(s,s,new A.aW(B.bg,new A.cd($.as1(),new A.anV(this),s,s,t.x_),s),s,s,s)}}
 A.anV.prototype={
 $3(a,b,c){return new A.cd($.as0(),new A.anU(this.a,b),null,null,t.x_)},
 $S:85}
@@ -81571,7 +81575,7 @@ A.axD(p,A.rF(new A.ajI(),null,t.z))
 return A.a5(null,r)}})
 return A.a6($async$xl,r)},
 D(a){var s=this,r=null,q=A.vS(r,r,!0,B.jA,r,r,1,r,!0,r,!1,r,r,r,A.rg(r,B.pE,r,new A.ajF(s),r),r,!0,r,r,r,r,r,r,B.YK,r,r,r,1,r),p=B.IC[s.d],o=A.te(!0,new A.J6(A.axf(A.a([B.Fe,A.Ko(!1,r,r,r,!0,r,!1,B.pE,r,new A.ajG(s),!1,r,r,r,r,r,B.Yy,r,r)],t.p),r),r),B.an,!0),n=s.d
-return A.eX(q,p,new A.w0(B.Jw,new A.ajH(s,a),n,B.Bk,r,r),o,r)}}
+return A.eX(q,B.j,p,new A.w0(B.Jw,new A.ajH(s,a),n,B.Bk,r,r),o,r)}}
 A.ajI.prototype={
 $1(a){return B.Ab},
 $S:469}
@@ -81615,7 +81619,7 @@ this.e.m()
 this.av()},
 D(a){var s=this,r=null,q="Register",p=A.vS(r,r,!0,B.jA,r,r,1,r,!0,r,!1,r,r,r,r,r,!0,r,r,r,r,r,r,B.Ym,r,r,r,1,r),o=s.w?A.iX("assets/images/beginner_app/yeah.png",200):A.iX("assets/images/beginner_app/rock.png",200),n=A.im(s.d,B.Hb,new A.aoT()),m=A.im(s.e,B.Ha,new A.aoU()),l=A.b7("",r,r,r,r,r,r),k=s.w,j=A.eP(A.b7(k?"Login":q,r,r,r,r,r,r),new A.aoV(s),r)
 o=A.bx(A.a([o,B.SY,n,B.aP,m,B.bQ,l,B.bQ,j,B.SN,A.e4(A.b7(k?q:"Login",r,r,r,r,r,r),new A.aoW(s),r),B.aP],t.p),B.t,B.A,B.E)
-return A.eX(p,new A.xk(new A.aW(B.G0,o,r),B.nN,s.f),r,r,r)}}
+return A.eX(p,r,new A.xk(new A.aW(B.G0,o,r),B.nN,s.f),r,r,r)}}
 A.aoX.prototype={
 $1(a){return B.Gy},
 $S:471}
@@ -81676,13 +81680,13 @@ $1(a){return B.a_V},
 $S:479}
 A.qd.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.tv(A.bx(A.a([B.jG,B.a_C,A.asM("BUY","assets/images/beginner_course.jpg","This course is for beginners. Even If you have never code before you will understand. At the end, you will be able to build any Mobile Apps by yourself. Flutter Version 3.0+\nGet your lifetime access today.",!0,new A.Z3(),"Flutter For Beginners"),B.ex,B.a_B,B.ex,B.AG,B.QE,B.EE],t.p),B.t,B.A,B.aM)),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.tv(A.bx(A.a([B.jG,B.a_C,A.asM("BUY","assets/images/beginner_course.jpg","This course is for beginners. Even If you have never code before you will understand. At the end, you will be able to build any Mobile Apps by yourself. Flutter Version 3.0+\nGet your lifetime access today.",!0,new A.Z3(),"Flutter For Beginners"),B.ex,B.a_B,B.ex,B.AG,B.QE,B.EE],t.p),B.t,B.A,B.aM)),s,s,s),s)}}
 A.Z3.prototype={
 $0(){A.lt($.avs())},
 $S:0}
 A.qD.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.tv(A.bx(A.a([B.Mn,B.Z2,new A.zj("Flutter For Beginners","2,000+ copy sold","Simplest and Fastest way to build Flutter apps","assets/images/beginner_course.jpg",new A.a_g(a),s),new A.zj("Flutter Pro","300+ copy sold","Clean Architecture & More","assets/images/flutter_ca.jpg",new A.a_h(a),s),new A.ro("Already a student?",s,new A.a_i(),"LOGIN",s),B.EC],t.p),B.t,B.A,B.E)),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.tv(A.bx(A.a([B.Mn,B.Z2,new A.zj("Flutter For Beginners","2,000+ copy sold","Simplest and Fastest way to build Flutter apps","assets/images/beginner_course.jpg",new A.a_g(a),s),new A.zj("Flutter Pro","300+ copy sold","Clean Architecture & More","assets/images/flutter_ca.jpg",new A.a_h(a),s),new A.ro("Already a student?",s,new A.a_i(),"LOGIN",s),B.EC],t.p),B.t,B.A,B.E)),s,s,s),s)}}
 A.a_g.prototype={
 $0(){A.dl(this.a,!1).kp("/flutter_for_beginners",t.X)},
 $S:0}
@@ -81700,10 +81704,10 @@ $0(){A.lt($.aDM())},
 $S:0}
 A.r8.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.bx(B.JQ,B.t,B.A,B.E),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.bx(B.JQ,B.t,B.A,B.E),s,s,s),s)}}
 A.rf.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.tv(A.bx(A.a([B.Mm,A.asM("GET FOR FREE","assets/images/roadmap.webp","Step by step PDF Guide to learn Flutter",!1,new A.a4i(),"Flutter Roadmap"),B.Gt,new A.ro("Join 2,000+ Students Learning Flutter Just Like You!",s,new A.a4j(a),"ONLINE COURSES",s),B.zx,B.oS],t.p),B.t,B.A,B.E)),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.tv(A.bx(A.a([B.Mm,A.asM("GET FOR FREE","assets/images/roadmap.webp","Step by step PDF Guide to learn Flutter",!1,new A.a4i(),"Flutter Roadmap"),B.Gt,new A.ro("Join 2,000+ Students Learning Flutter Just Like You!",s,new A.a4j(a),"ONLINE COURSES",s),B.zx,B.oS],t.p),B.t,B.A,B.E)),s,s,s),s)}}
 A.a4i.prototype={
 $0(){A.lt($.aDL())},
 $S:0}
@@ -81712,7 +81716,7 @@ $0(){A.dl(this.a,!1).kp("/courses",t.X)},
 $S:0}
 A.rP.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.tv(A.bx(A.a([B.jG,new A.ro("Page not found","Go back to the home page",new A.a7a(a),"HOME",s),B.zx,B.oS],t.p),B.t,B.A,B.E)),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.tv(A.bx(A.a([B.jG,new A.ro("Page not found","Go back to the home page",new A.a7a(a),"HOME",s),B.zx,B.oS],t.p),B.t,B.A,B.E)),s,s,s),s)}}
 A.a7a.prototype={
 $0(){A.dl(this.a,!1).kp("/",t.X)},
 $S:0}
@@ -81822,7 +81826,7 @@ s.d=s.e[this.b].b},
 $S:0}
 A.u5.prototype={
 D(a){var s=null
-return new A.kr(A.eX(s,A.tv(A.bx(B.Id,B.t,B.A,B.E)),s,s,s),s)}}
+return new A.kr(A.eX(s,s,A.tv(A.bx(B.Id,B.t,B.A,B.E)),s,s,s),s)}}
 A.Gz.prototype={
 D(a){return A.bx(A.a([B.Ye,B.bQ,new A.cd($.lu(),new A.YO(),null,null,t.Id)],t.p),B.t,B.A,B.E)}}
 A.YO.prototype={
