@@ -80471,7 +80471,7 @@ $S:0}
 A.a3c.prototype={
 $0(){var s=this.a.J(t.c).x.d
 s===$&&A.b()
-s.sl(0,new A.ds("/",null))},
+s.sl(0,new A.ds("/courses",null))},
 $S:0}
 A.rP.prototype={
 F(a){var s=null
