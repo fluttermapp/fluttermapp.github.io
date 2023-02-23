@@ -93047,7 +93047,7 @@ v(a){var s=null,r=$.aNz()
 return new A.pY(s,s,s,$.aNA(),"Flutter Mapp",r,r,B.Bl,!1,s)}}
 A.t0.prototype={
 v(a){var s=null
-return new A.no(A.io(s,A.lW(A.aL(A.a([B.xM,B.a1k,A.aC8("BUY","assets/images/beginner_course.jpg","This course is for beginners. Even If you have never code before you will understand. At the end, you will be able to build any Mobile Apps by yourself. Flutter Version 3.0+\nGet your lifetime access today.",!0,new A.a2R(),"Flutter For Beginners"),B.ea,B.a1j,B.ea,B.C5,B.Qw,B.q7],t.p),B.m,B.l,B.af),s,s,B.Z),s,s),s)}}
+return new A.no(A.io(s,A.lW(A.aL(A.a([B.xM,B.a1k,A.aC8("BUY","assets/images/beginner_course.jpg","This course is for beginners. Even If you have never coded before you will understand. At the end, you will be able to build any Mobile App by yourself. Flutter Version 3.0+\nGet your lifetime access today.",!0,new A.a2R(),"Flutter For Beginners"),B.ea,B.a1j,B.ea,B.C5,B.Qw,B.q7],t.p),B.m,B.l,B.af),s,s,B.Z),s,s),s)}}
 A.a2R.prototype={
 $0(){A.mD($.aEY())},
 $S:0}
