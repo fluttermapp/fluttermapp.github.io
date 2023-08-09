@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4aba866e.css",
-    "main.js": "/static/js/main.a3b05c3b.js",
-    "static/js/787.32dcde97.chunk.js": "/static/js/787.32dcde97.chunk.js",
-    "static/media/logo.png": "/static/media/logo.9beb32e4c4c4da0ddba4.png",
-    "index.html": "/index.html",
-    "main.4aba866e.css.map": "/static/css/main.4aba866e.css.map",
-    "main.a3b05c3b.js.map": "/static/js/main.a3b05c3b.js.map",
-    "787.32dcde97.chunk.js.map": "/static/js/787.32dcde97.chunk.js.map"
+    "main.css": "/fluttermapp.github.io/static/css/main.4aba866e.css",
+    "main.js": "/fluttermapp.github.io/static/js/main.07d1b27e.js",
+    "static/js/787.32dcde97.chunk.js": "/fluttermapp.github.io/static/js/787.32dcde97.chunk.js",
+    "static/media/logo.png": "/fluttermapp.github.io/static/media/logo.9beb32e4c4c4da0ddba4.png",
+    "index.html": "/fluttermapp.github.io/index.html",
+    "main.4aba866e.css.map": "/fluttermapp.github.io/static/css/main.4aba866e.css.map",
+    "main.07d1b27e.js.map": "/fluttermapp.github.io/static/js/main.07d1b27e.js.map",
+    "787.32dcde97.chunk.js.map": "/fluttermapp.github.io/static/js/787.32dcde97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aba866e.css",
-    "static/js/main.a3b05c3b.js"
+    "static/js/main.07d1b27e.js"
   ]
 }
