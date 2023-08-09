@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Website maintenance (2 days left)
+          Website maintenance (1 days left)
         </p>
         <a
           className="App-link"
