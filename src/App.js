@@ -1,35 +1,21 @@
 import logo from './logo.png';
-import './App.css';
+import Home from "./pages/Home"
+import Partner from "./pages/Partner"
+import Free from "./pages/Free"
+import Error from "./pages/Error"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Flutter Mapp
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Website maintenance (1 day left)
-        </p>
-        <a
-          className="App-link"
-          href="https://sso.teachable.com/secure/1086263/identity/login/password"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Login (Online courses - courses.fluttermapp.com)
-        </a> 
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          check this out
-        </a> 
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Free" element={<Free />} />
+        <Route path="/Partner" element={<Partner />} />
+        <Route path="/404" element={<Error />} />
+        <Route path="/*" element={<Error />} />
+      </Routes>
+    </>
   );
 }
 
