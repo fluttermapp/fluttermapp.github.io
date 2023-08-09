@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>
+          Flutter Mapp
+        </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Website maintenance (1 days left)
+          Website maintenance (1 day left)
         </p>
         <a
           className="App-link"
@@ -15,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Login (Online courses - Teachable)
+          Login (Online courses - courses.fluttermapp.com)
         </a>
       </header>
     </div>
