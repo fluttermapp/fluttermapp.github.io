@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import NavbarOther from "./NavbarOther";
 import ZeroToHero from "./ZeroToHero";
 import FreeItem from "./FreeItem";
-import Pro from "./Pro";
+import CleanArchitecture from "./CleanArchitecture";
 import Why from "./Why";
 import Clients from "./Clients";
 import CTA from "./CTA";
@@ -18,7 +18,7 @@ export {
   NavbarOther,
   ZeroToHero,
   FreeItem,
-  Pro,
+  CleanArchitecture,
   Why,
   Clients,
   CTA,

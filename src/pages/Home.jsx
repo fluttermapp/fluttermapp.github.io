@@ -1,5 +1,5 @@
 import styles from "../style";
-import { ZeroToHero, Why, Pro, Clients, CTA, Footer, Navbar, Stats, Testimonials, Banner } from "../components";
+import { ZeroToHero, Why, CleanArchitecture, Clients, CTA, Footer, Navbar, Stats, Testimonials, Banner } from "../components";
 
 export default function Home() {
     return (
@@ -21,7 +21,7 @@ export default function Home() {
                     <Stats />
                     <Why />
                     <ZeroToHero />
-                     {/*<Pro />*/}
+                    <CleanArchitecture />
                     <Testimonials />
                     {/*<Clients />*/}
                     <CTA />

@@ -1,5 +1,5 @@
 import zeroToHeroTn from "./zero_to_hero_tn.jpg";
-import pro from "./pro.jpg";
+import cleanArchitecture from "./clean_architecture.jpg";
 import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
@@ -24,7 +24,7 @@ import pavel from "./pavel.jpg";
 
 export {
   zeroToHeroTn,
-  pro,
+  cleanArchitecture,
   dropbox,
   logo,
   quotes,

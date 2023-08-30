@@ -24,7 +24,7 @@ const ZeroToHero = () => (
         • 2000+ copy sold
       </p>
       <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-        <Button styles={`mt-10`} label='Get This Course' url="https://sso.teachable.com/secure/1086263/checkout/4306355/flutter-for-beginners?coupon_code=OFF50" />
+        <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/flutter-for-beginners" />
       </div>
 
 
