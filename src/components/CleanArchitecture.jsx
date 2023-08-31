@@ -32,7 +32,7 @@ const Pro = () => (
         </p>
       </section>
       <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-        <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/clean-architecture" />
+        <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/clean-architecture?coupon_code=OFF30" />
       </div>
     </div>
   </section>
