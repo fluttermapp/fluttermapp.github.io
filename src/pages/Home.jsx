@@ -21,7 +21,7 @@ export default function Home() {
                     <Stats />
                     <Why />
                     <ZeroToHero />
-                    <CleanArchitecture />
+                    {/*<CleanArchitecture />*/}
                     <Testimonials />
                     {/*<Clients />*/}
                     <CTA />
