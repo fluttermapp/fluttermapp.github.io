@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Partner from "./pages/Partner"
 import Free from "./pages/Free"
 import Error from "./pages/Error"
+import Blog from "./pages/Blog"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Free" element={<Free />} />
         <Route path="/Partner" element={<Partner />} />
+        <Route path="/Blog" element={<Blog />} />
         <Route path="/404" element={<Error />} />
         <Route path="/*" element={<Error />} />
       </Routes>

@@ -12,6 +12,7 @@ import Testimonials from "./Testimonials";
 import Banner from "./Banner";
 import PageNotFound from "./PageNotFound";
 import ContactUs from "./ContactUs";
+import Article from "./Article";
 
 export {
   Navbar,
@@ -28,4 +29,5 @@ export {
   Banner,
   PageNotFound,
   ContactUs,
+  Article,
 };
