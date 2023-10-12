@@ -22,6 +22,9 @@ import tadas from "./tadas.jpg";
 import ilies from "./ilies.jpg";
 import pavel from "./pavel.jpg";
 
+//Blog
+import flutterProviderTN from "./flutter_provider_tn.jpg";
+
 export {
   zeroToHeroTn,
   cleanArchitecture,
@@ -46,4 +49,5 @@ export {
   tadas,
   ilies,
   pavel,
+  flutterProviderTN,
 };

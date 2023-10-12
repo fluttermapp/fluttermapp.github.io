@@ -10,8 +10,7 @@ const NavbarOther = () => {
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <div
           key={'home'}
-          className={`font-poppins font-normal text-[16px] leading-[24px] text-dimBlack hover:text-secondary cursor-pointer`}
-        >
+          className={`font-poppins font-normal text-[16px] leading-[24px] text-dimBlack hover:text-secondary cursor-pointer`}>
           <CustomLink to='/'> Return home </CustomLink>
         </div>
       </ul>

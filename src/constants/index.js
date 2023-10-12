@@ -128,6 +128,11 @@ export const footerLinks = [
         path: "https://discord.com/invite/CrdmDraphN",
         isNewPage: true,
       },
+      {
+        name: "Blog",
+        path: "/Blog",
+        isNewPage: false,
+      },
       /* {
         name: "Newsletters",
         path: "/404",
