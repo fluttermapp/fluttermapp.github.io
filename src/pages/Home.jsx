@@ -1,5 +1,5 @@
 import styles from "../style";
-import { ZeroToHero, Why, CTA, Footer, Navbar, Stats, Testimonials, Banner } from "../components";
+import { ZeroToHero, Why, CTA, Footer, Navbar, Stats, Testimonials, Banner, DiscountBanner } from "../components";
 
 export default function Home() {
     return (
@@ -12,7 +12,8 @@ export default function Home() {
 
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                <Banner />
+                    <DiscountBanner />
+                    <Banner />
                 </div>
             </div>
 

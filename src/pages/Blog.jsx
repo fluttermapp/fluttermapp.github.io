@@ -1,8 +1,7 @@
 import styles from "../style";
 import { idNavLink4 } from "../constants";
-import { ProviderBlog, NavbarOther } from "../components";
+import { NavbarOther } from "../components";
 import { Link } from "react-router-dom"
-
 
 export default function Blog() {
     return (

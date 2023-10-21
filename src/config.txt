@@ -1,3 +1,4 @@
 1. Push
 2. npm run deploy
 3. Add Custom domain
+4. Add js and css in 404

@@ -13,13 +13,23 @@
   --white-gradient: linear-gradient(144.39deg,
       #f4f4f4 40.00%,
       #ffffff 95.00%);
+
   --white-reverse-gradient: linear-gradient(144.39deg,
       #ffffff 40.00%,
       #f4f4f4 95.00%);
-      
+
   --grey-gradient: linear-gradient(144.39deg,
       #bebebe 20.00%,
       #949494 80.00%);
+
+  --blue-gradient: linear-gradient(144.39deg,
+      #1e1c96 20.00%,
+      #004ab9 80.00%);
+
+  --blue-reverse-gradient: linear-gradient(144.39deg,
+      #0842ad 20.00%,
+      #2500c8 80.00%);
+
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -98,15 +108,15 @@
 
 .button-color {
   background: linear-gradient(157.81deg,
-  #77a4e9 20.00%,
-  #154de8 80.00%);
+      #77a4e9 20.00%,
+      #154de8 80.00%);
   box-shadow: var(--card-shadow);
 }
 
 .button-color:hover {
   background: linear-gradient(157.81deg,
-  #3d81ff 20.00%,
-  #154de8 80.00%);
+      #3d81ff 20.00%,
+      #154de8 80.00%);
   box-shadow: var(--card-shadow);
 }
 
@@ -117,6 +127,16 @@
 
 .feature-card:hover {
   background: var(--white-reverse-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feature-card-discount {
+  background: var(--blue-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feature-card-discount:hover {
+  background: var(--blue-reverse-gradient);
   box-shadow: var(--card-shadow);
 }
 

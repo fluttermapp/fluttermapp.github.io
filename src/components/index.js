@@ -12,6 +12,7 @@ import Testimonials from "./Testimonials";
 import Banner from "./Banner";
 import PageNotFound from "./PageNotFound";
 import ContactUs from "./ContactUs";
+import DiscountBanner from "./DiscountBanner";
 import ProviderBlogArticle from "./blog/ProviderBlogArticle";
 import ProviderBlog from "./blog/ProviderBlog";
 
@@ -30,6 +31,7 @@ export {
   Banner,
   PageNotFound,
   ContactUs,
+  DiscountBanner,
   ProviderBlogArticle,
   ProviderBlog,
 };
