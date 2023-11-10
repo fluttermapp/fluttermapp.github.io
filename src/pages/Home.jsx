@@ -12,7 +12,7 @@ export default function Home() {
 
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <DiscountBanner />
+                    {/*<DiscountBanner />*/}
                     <Banner />
                 </div>
             </div>

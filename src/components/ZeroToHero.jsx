@@ -16,12 +16,14 @@ const ZeroToHero = () => (
       <h2 className={styles.heading3}>
         Flutter Zero {/*<br className="sm:block hidden" />*/} To Hero
       </h2>
-      <p className={`font-poppins font-bold text-[20px] leading-[30.8px] max-w-[470px] mt-0`}>
+      {/*<p className={`font-poppins font-bold text-[20px] leading-[30.8px] max-w-[470px] mt-0`}>
         👉 Promo 80% Off
       </p><p className={`font-poppins font-normal text-dimBlack text-[16px] leading-[30.8px] max-w-[470px] mt-0`}>
         Use the code 'ONLY100.' Limited to the first 100 people. Available only in October 2023.
-      </p> <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-      </div>
+      </p>
+      
+      <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
+      </div> */}
       <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
         • Simplest and fastest way to build your Apps.
       </p>
@@ -30,7 +32,7 @@ const ZeroToHero = () => (
         • 2000+ copy sold
       </p>
       <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-        <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/flutter-for-beginners?coupon_code=ONLY100" />
+        <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/flutter-for-beginners" />
       </div>
 
 
