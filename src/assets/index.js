@@ -1,9 +1,10 @@
-import zeroToHeroTn from "./zero_to_hero_tn.jpg";
+import zeroToHeroTn from "./zero_to_hero_dark.png";
 import cleanArchitecture from "./clean_architecture.jpg";
 import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import roadmap from "./roadmap.png";
+import blackFriday from "./black_friday.png";
 import checklist from "./checklist.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -32,6 +33,7 @@ export {
   logo,
   quotes,
   roadmap,
+  blackFriday,
   checklist,
   send,
   shield,

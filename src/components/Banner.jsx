@@ -1,5 +1,5 @@
 import styles from "../style";
-import { roadmap } from "../assets";
+import { roadmap, blackFriday } from "../assets";
 import { idNavLink1 } from "../constants";
 import { useState } from "react";
 
@@ -13,8 +13,9 @@ const Banner = () => {
   }
   return (
     <section id={idNavLink1} className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+      {/* 
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-
+       
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-black ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
             Free
@@ -36,17 +37,22 @@ const Banner = () => {
             {'Get For Free'}
           </button>
         </div>
-      </div>
+      
+      </div>  */}
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={roadmap} alt="roadmap" className="w-[100%] h-[100%] relative z-[5]"/>
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mx-20 relative`}>
+        <img src={blackFriday} alt="blackFriday" className="w-[100%] h-[100%] relative z-[5] rounded-[20px]" />
 
         {/* gradient start */}
+        {/*
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+      */}
         {/* gradient end */}
         <div className={`flex-1 flex ${styles.flexCenter}`} />
+
+
       </div>
 
 
