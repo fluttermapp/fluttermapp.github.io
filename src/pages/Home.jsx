@@ -20,8 +20,8 @@ export default function Home() {
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Stats />
-                    <Why />
-                    <ZeroToHero />
+                    {/*<Why />
+                    <ZeroToHero />*/}
                     {/*<CleanArchitecture />*/}
                     <Testimonials />
                     {/*<Clients />*/}

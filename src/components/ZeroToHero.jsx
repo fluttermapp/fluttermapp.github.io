@@ -16,11 +16,7 @@ const ZeroToHero = () => (
       <h2 className={styles.heading3}>
         Flutter ZERO {/*<br className="sm:block hidden" />*/} To HERO
       </h2>
-      <p className={`font-poppins font-bold text-[20px] leading-[30.8px] max-w-[470px] mt-0`}>
-        👉 Black Friday 70% Off
-      </p><p className={`font-poppins font-normal text-dimBlack text-[16px] leading-[30.8px] max-w-[470px] mt-0`}>
-        Use the code 'BlackFriday'
-      </p>
+
 
       <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
       </div>

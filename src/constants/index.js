@@ -11,10 +11,6 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: idNavLink2,
-    title: "Course",
-  },
-  {
     id: idNavLink3,
     title: "Reviews",
   },
@@ -85,17 +81,12 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Useful",
     links: [
       {
         name: "Free items",
         path: "/Free",
         isNewPage: false,
-      },
-      {
-        name: "Youtube",
-        path: "https://www.youtube.com/fluttermapp",
-        isNewPage: true,
       },
 
       /* {
@@ -128,11 +119,6 @@ export const footerLinks = [
         path: "https://discord.com/invite/CrdmDraphN",
         isNewPage: true,
       },
-      {
-        name: "Blog",
-        path: "/Blog",
-        isNewPage: false,
-      },
       /* {
         name: "Newsletters",
         path: "/404",
@@ -141,17 +127,18 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Affiliate",
+    title: "Learn",
     links: [
       /* {
         name: "Our Partner",
         path: "/404",
         isNewPage: false,
       }, */
+
       {
-        name: "Become a affiliate",
-        path: "/Partner",
-        isNewPage: false,
+        name: "Youtube",
+        path: "https://www.youtube.com/fluttermapp",
+        isNewPage: true,
       },
     ],
   },
