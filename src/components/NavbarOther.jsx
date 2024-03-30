@@ -7,7 +7,7 @@ const NavbarOther = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img src={logo} alt="flutter mapp" className="w-[50px] h-[50px]" />
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none justify-end items-center ">
         <div
           key={'home'}
           className={`font-poppins font-normal text-[16px] leading-[24px] text-dimBlack hover:text-secondary cursor-pointer`}>

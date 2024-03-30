@@ -1,4 +1,4 @@
-import { tadas, ilies, pavel, facebook, instagram, linkedin, twitter, dropbox, logo } from "../assets";
+import { tadas, ilies, pavel, facebook, instagram, twitter, logo, checklist, roadmap, zeroToHero } from "../assets";
 
 export const idNavLink1 = 'Home';
 export const idNavLink2 = 'Courses';
@@ -27,6 +27,25 @@ export const features = [
     title: "Why?",
     content:
       "Why make it comlicated? We believe Flutter should be simple to understand and quick to learn, period.",
+  },
+];
+
+export const homeStuff = [
+  {
+    id: "home-stuff-1",
+    description:
+      "It's like a cheat code list, but for Flutter.",
+    url: "https://fluttermapp.gumroad.com/l/checklist?price=0&wanted=true&email=",
+    title: "Flutter Checklist",
+    img: checklist,
+  },
+  {
+    id: "home-stuff-2",
+    description:
+      "Step-by-Step Guide to Your Flutter Journey",
+    url: "https://fluttermapp.gumroad.com/l/flutter-roadmap?price=0&wanted=true&email=",
+    title: "Flutter Roadmap",
+    img: roadmap,
   },
 ];
 
@@ -63,7 +82,6 @@ export const feedback = [
     title: "Keep it simple",
     img: logo,
   },
-
 ];
 
 export const stats = [
@@ -71,11 +89,6 @@ export const stats = [
     id: "stats-1",
     title: "Students",
     value: "3000+",
-  },
-  {
-    id: "stats-3",
-    title: "Subscribers",
-    value: "170 000+",
   },
 ];
 
@@ -159,24 +172,5 @@ export const socialMedia = [
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/fluttermapp",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: dropbox,
-  },
-  {
-    id: "client-2",
-    logo: dropbox,
-  },
-  {
-    id: "client-3",
-    logo: dropbox,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

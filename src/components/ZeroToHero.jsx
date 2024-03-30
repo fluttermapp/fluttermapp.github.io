@@ -1,11 +1,11 @@
-import { zeroToHeroTn } from "../assets";
+import { checklist } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
 const ZeroToHero = () => (
   <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={zeroToHeroTn} alt="zeroToHeroTn" className="w-[75%] h-[100%] relative z-[5] rounded-[20px]" />
+      <img src={checklist} alt="zeroToFlutterPro" className="w-[75%] h-[100%] relative z-[5] rounded-[20px]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

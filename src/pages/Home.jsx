@@ -13,13 +13,13 @@ export default function Home() {
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     {/*<DiscountBanner />*/}
-                    <Banner />
+                   
                 </div>
             </div>
 
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Stats />
+                <div className={`${styles.boxWidth}`}>  
+                    <Banner />
                     {/*<Why />
                     <ZeroToHero />*/}
                     {/*<CleanArchitecture />*/}

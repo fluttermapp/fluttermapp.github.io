@@ -120,6 +120,20 @@
   box-shadow: var(--card-shadow);
 }
 
+.button-text-color {
+  background: linear-gradient(157.81deg,
+      #c3d4ec 20.00%,
+      #cbd1e3 80.00%);
+  box-shadow: var(--card-shadow);
+}
+
+.button-text-color:hover {
+  background: linear-gradient(157.81deg,
+      #d82c19 20.00%,
+      #f22f03 80.00%);
+  box-shadow: var(--card-shadow);
+}
+
 .feature-card {
   background: var(--white-gradient);
   box-shadow: var(--card-shadow);

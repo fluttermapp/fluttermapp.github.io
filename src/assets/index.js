@@ -1,10 +1,6 @@
-import zeroToHeroTn from "./zero_to_hero_dark.png";
-import cleanArchitecture from "./clean_architecture.jpg";
-import dropbox from "./dropbox.png";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import roadmap from "./roadmap.png";
-import blackFriday from "./black_friday.png";
 import checklist from "./checklist.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -22,18 +18,16 @@ import twitter from "./twitter.svg";
 import tadas from "./tadas.jpg";
 import ilies from "./ilies.jpg";
 import pavel from "./pavel.jpg";
+import zeroToHero from "./zero_to_hero.png";
+import blue from "./blue.webp";
 
 //Blog
 import flutterProviderTN from "./flutter_provider_tn.jpg";
 
 export {
-  zeroToHeroTn,
-  cleanArchitecture,
-  dropbox,
   logo,
   quotes,
   roadmap,
-  blackFriday,
   checklist,
   send,
   shield,
@@ -52,4 +46,6 @@ export {
   ilies,
   pavel,
   flutterProviderTN,
+  zeroToHero,
+  blue,
 };
