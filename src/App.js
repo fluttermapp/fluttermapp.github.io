@@ -32,8 +32,6 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />
-
-        //*Blog
         <Route path="provider" element={<ProviderBlogArticle />} />
       </Routes >
     </div>
