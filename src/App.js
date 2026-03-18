@@ -1,4 +1,4 @@
-import logo from './logo.png';
+/* import logo from './logo.png';
 import Home from "./pages/Home"
 import Partner from "./pages/Partner"
 import Free from "./pages/Free"
@@ -12,7 +12,15 @@ import {
   Routes,
   Navigate,
   useLocation
-} from "react-router-dom"
+} from "react-router-dom" */
+
+import Home from "./pages/Home"
+import Partner from "./pages/Partner"
+import Free from "./pages/Free"
+import Error from "./pages/Error"
+import Blog from "./pages/Blog"
+import { ProviderBlogArticle } from './components';
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
