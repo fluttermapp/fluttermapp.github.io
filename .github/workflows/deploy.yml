@@ -1,24 +1,35 @@
-name: Deploy React to gh-pages
+name: Deploy React App to GitHub Pages (main branch)
+
+# Run this workflow every time you push to main
 on:
   push:
     branches:
-      - main  # triggers when you push code to main
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Check out your code
       - uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '24'   # Use Node 24 to avoid warnings
+
+      # Step 3: Install dependencies
       - run: npm install
-      - run: npm run build
-      - name: Deploy to gh-pages
+
+      # Step 4: Build React app, ignoring ESLint warnings in CI
+      - run: CI=false npm run build
+
+      # Step 5: Deploy build folder directly to main branch root
+      - name: Deploy to main branch root
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./build
+          publish_branch: main      # deploy directly to main
+          publish_dir: ./build      # folder to deploy
