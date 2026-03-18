@@ -1,13 +1,13 @@
 import Navbar from "./Navbar";
 import NavbarOther from "./NavbarOther";
-import ZeroToHero from "./ZeroToHero";
+import SectionHeader from "./SectionHeader";
 import FreeItem from "./FreeItem";
-import Why from "./Why";
-import CTA from "./CTA";
+import SectionArticle from "./SectionArticle";
+import SectionEmail from "./SectionEmail";
+import SectionCTA from "./SectionCTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Banner from "./Banner";
+import SectionTestimonials from "./SectionTestimonials";
 import PageNotFound from "./PageNotFound";
 import ContactUs from "./ContactUs";
 import DiscountBanner from "./DiscountBanner";
@@ -17,14 +17,14 @@ import ProviderBlog from "./blog/ProviderBlog";
 export {
   Navbar,
   NavbarOther,
-  ZeroToHero,
+  SectionHeader,
   FreeItem,
-  Why,
-  CTA,
+  SectionArticle,
+  SectionEmail,
+  SectionCTA,
   Stats,
   Footer,
-  Testimonials,
-  Banner,
+  SectionTestimonials,
   PageNotFound,
   ContactUs,
   DiscountBanner,

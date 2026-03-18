@@ -1,5 +1,15 @@
 import styles from "../style";
-import { ZeroToHero, Why, CTA, Footer, Navbar, Stats, Testimonials, Banner, DiscountBanner } from "../components";
+import {
+    SectionHeader,
+    SectionCTA,
+    Footer,
+    Navbar,
+    Stats,
+    SectionTestimonials,
+    DiscountBanner,
+    SectionEmail,
+    SectionArticle
+} from "../components";
 
 export default function Home() {
     return (
@@ -13,19 +23,16 @@ export default function Home() {
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     {/*<DiscountBanner />*/}
-                   
+
                 </div>
             </div>
 
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>  
-                    <Banner />
-                    {/*<Why />
-                    <ZeroToHero />*/}
-                    {/*<CleanArchitecture />*/}
-                    <Testimonials />
-                    {/*<Clients />*/}
-                    <CTA />
+                <div className={`${styles.boxWidth}`}>
+                    <SectionHeader />
+                    <SectionArticle />
+                    <SectionTestimonials />
+                    <SectionCTA />
                     <Footer />
                 </div>
             </div>

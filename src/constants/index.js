@@ -1,14 +1,18 @@
 import { tadas, ilies, pavel, facebook, instagram, twitter, logo, checklist, roadmap, zeroToHero } from "../assets";
 
-export const idNavLink1 = 'Home';
-export const idNavLink2 = 'Courses';
+export const idNavLink1 = 'Free';
+export const idNavLink2 = 'Articles';
 export const idNavLink3 = 'Reviews';
 export const idNavLink4 = 'Login';
 
 export const navLinks = [
   {
     id: idNavLink1,
-    title: "Home",
+    title: "Free",
+  },
+  {
+    id: idNavLink2,
+    title: "Articles",
   },
   {
     id: idNavLink3,

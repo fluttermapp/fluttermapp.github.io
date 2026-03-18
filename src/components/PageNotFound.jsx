@@ -6,7 +6,7 @@ const PageNotFound = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Page Not Found</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        The requested URL was not found. (Click 'return home')
+        The requested URL was not found.
       </p>
     </div>
   </section>

@@ -5,8 +5,9 @@ const NavbarOther = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="flutter mapp" className="w-[50px] h-[50px]" />
-
+      <Link to="/" className="select-none">
+        <img src={logo} alt="flutter mapp" className="w-[50px] h-[50px]" />
+      </Link>
       <ul className="list-none justify-end items-center ">
         <div
           key={'home'}
