@@ -20,11 +20,11 @@ import Free from "./pages/Free"
 import Error from "./pages/Error"
 import Blog from "./pages/Blog"
 import { ProviderBlogArticle } from './components';
-import { Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Routes >
         <Route exact path="/" element={<Home />} />
         <Route path="/Free" element={<Free />} />
@@ -34,7 +34,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="provider" element={<ProviderBlogArticle />} />
       </Routes >
-    </div>
+    </Router>
   );
 }
 
