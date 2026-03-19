@@ -2,8 +2,9 @@ import { tadas, ilies, pavel, facebook, instagram, twitter, logo, checklist, roa
 
 export const idNavLink1 = 'Free';
 export const idNavLink2 = 'Articles';
-export const idNavLink3 = 'Reviews';
-export const idNavLink4 = 'Course';
+export const idNavLink3 = 'My New App';
+export const idNavLink4 = 'Reviews';
+export const idNavLink5 = 'Course';
 
 export const navLinks = [
   {
@@ -16,10 +17,14 @@ export const navLinks = [
   },
   {
     id: idNavLink3,
-    title: "Reviews",
+    title: "My New App",
   },
   {
     id: idNavLink4,
+    title: "Reviews",
+  },
+  {
+    id: idNavLink5,
     title: "Course",
   },
 ];

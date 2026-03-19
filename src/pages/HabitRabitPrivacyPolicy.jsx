@@ -1,8 +1,8 @@
 import styles from "../style";
-import { CTA, ContactUs, NavbarOther } from "../components";
+import { CTA, HabitRabitPrivacyPolicyBody, NavbarOther } from "../components";
 
 
-export default function Partner() {
+export default function HabitRabitPrivacyPolicy() {
     return (
         <div className="bg-primary w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -12,7 +12,7 @@ export default function Partner() {
             </div>
 
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-                <ContactUs/>
+                <HabitRabitPrivacyPolicyBody />
             </div>
         </div>
     );

@@ -9,6 +9,7 @@ import {
     DiscountBanner,
     SectionEmail,
     SectionArticle,
+    SectionPromo,
 } from "../components";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
                 <div className={`${styles.boxWidth}`}>
                     <SectionHeader />
                     <SectionArticle />
+                    <SectionPromo />
                     <SectionTestimonials />
                     <SectionCTA />
                     <Footer />

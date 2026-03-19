@@ -15,7 +15,8 @@ import {
 } from "react-router-dom" */
 
 import Home from "./pages/Home"
-import Partner from "./pages/Partner"
+import HabitRabitPrivacyPolicy from "./pages/HabitRabitPrivacyPolicy"
+import ReadAiPrivacyPolicy from "./pages/ReadAiPrivacyPolicy"
 import Free from "./pages/Free"
 import Error from "./pages/Error"
 import Blog from "./pages/Blog"
@@ -28,7 +29,8 @@ function App() {
       <Routes >
         <Route exact path="/" element={<Home />} />
         <Route path="/Free" element={<Free />} />
-        <Route path="/Partner" element={<Partner />} />
+        <Route path="/habit-rabit-privacy-policy" element={<HabitRabitPrivacyPolicy />} />
+        <Route path="/read-ai-privacy-policy" element={<ReadAiPrivacyPolicy />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />

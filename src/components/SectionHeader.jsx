@@ -8,7 +8,7 @@ const SectionHeader = () => (
   <section id={idNavLink1} className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-8 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        For you <br className="sm:block hidden" />
+        For You <br className="sm:block hidden" />
       </h2>
     </div>
     <div className={layout.sectionReverse}>

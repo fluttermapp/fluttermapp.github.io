@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import roadmap from "./roadmap.png";
 import checklist from "./checklist.png";
+import foodComa from "./food_coma.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -41,6 +42,7 @@ export {
   google,
   apple,
   arrowUp,
+  foodComa,
   discount,
   facebook,
   instagram,

@@ -1,10 +1,10 @@
-import { feedback, idNavLink3 } from "../constants";
+import { feedback, idNavLink4 } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 import { Stats } from ".";
 
 const SectionTestimonials = () => (
-  <section id={idNavLink3} className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
+  <section id={idNavLink4} className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full" />
     <br className="sm:block hidden" />
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-8 mb-6 relative z-[1]">
