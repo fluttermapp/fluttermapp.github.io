@@ -1,4 +1,4 @@
-import { flutterProviderTN } from "../../assets";
+import { logo } from "../../assets";
 import styles, { layout } from "../../style";
 import Button from ".././Button";
 import { Link } from "react-router-dom"
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const ProviderBlog = () => (
     <section className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={flutterProviderTN} alt="flutterProviderTN" className="w-[100%] h-[100%] relative z-[5] rounded-[20px]" />
+            <img src={logo} alt="flutterProviderTN" className="w-[100%] h-[100%] relative z-[5] rounded-[20px]" />
 
             {/* gradient start */}
             <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

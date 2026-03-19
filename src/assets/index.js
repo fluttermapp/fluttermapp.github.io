@@ -20,9 +20,13 @@ import ilies from "./ilies.jpg";
 import pavel from "./pavel.jpg";
 import zeroToHero from "./zero_to_hero.png";
 import blue from "./blue.webp";
-
-//Blog
-import flutterProviderTN from "./flutter_provider_tn.jpg";
+import localNotifications from "./local_notifications.pdf";
+import provider from "./provider.pdf";
+import installFlutterMac from "./install_flutter_mac.pdf";
+import bloc from "./bloc.pdf";
+import pythonCheatSheet from "./python_cheatsheet.pdf";
+import flutterChecklist from "./flutter_checklist.pdf";
+import flutterRoadmap from "./flutter_roadmap.pdf";
 
 export {
   logo,
@@ -45,7 +49,13 @@ export {
   tadas,
   ilies,
   pavel,
-  flutterProviderTN,
   zeroToHero,
   blue,
+  localNotifications,
+  provider,
+  installFlutterMac,
+  bloc,
+  pythonCheatSheet,
+  flutterChecklist,
+  flutterRoadmap,
 };

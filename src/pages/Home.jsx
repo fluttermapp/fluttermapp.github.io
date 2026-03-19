@@ -8,7 +8,7 @@ import {
     SectionTestimonials,
     DiscountBanner,
     SectionEmail,
-    SectionArticle
+    SectionArticle,
 } from "../components";
 
 export default function Home() {

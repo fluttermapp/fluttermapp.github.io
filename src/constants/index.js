@@ -3,7 +3,7 @@ import { tadas, ilies, pavel, facebook, instagram, twitter, logo, checklist, roa
 export const idNavLink1 = 'Free';
 export const idNavLink2 = 'Articles';
 export const idNavLink3 = 'Reviews';
-export const idNavLink4 = 'Login';
+export const idNavLink4 = 'Course';
 
 export const navLinks = [
   {
@@ -20,7 +20,7 @@ export const navLinks = [
   },
   {
     id: idNavLink4,
-    title: "Login",
+    title: "Course",
   },
 ];
 
@@ -91,8 +91,8 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Students",
-    value: "3000+",
+    title: "Udemy students",
+    value: "3,000+",
   },
 ];
 
@@ -162,7 +162,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
+  /* {
     id: "social-media-1",
     icon: instagram,
     link: "https://www.instagram.com/fluttermapp",
@@ -176,5 +176,5 @@ export const socialMedia = [
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/fluttermapp",
-  },
+  }, */
 ];

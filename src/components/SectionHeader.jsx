@@ -2,12 +2,13 @@ import { checklist } from "../assets";
 import { idNavLink1 } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { flutterChecklist } from "../assets";
 
 const SectionHeader = () => (
   <section id={idNavLink1} className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-8 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        Flutter Mapp <br className="sm:block hidden" />
+        For you <br className="sm:block hidden" />
       </h2>
     </div>
     <div className={layout.sectionReverse}>
@@ -21,19 +22,19 @@ const SectionHeader = () => (
       </div>
       <div className={layout.sectionInfoStart}>
         <h2 className={styles.heading3}>
-          Flutter ZERO {/*<br className="sm:block hidden" />*/} To HERO
+          Flutter {/*<br className="sm:block hidden" />*/} Checklist
         </h2>
         <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
-          • Simplest and fastest way to build your Apps.
+          • Your cheatsheet to learn Flutter!
         </p>
         {/* <span className="font-bold text-[20px]">• 2000+ copy sold</span> */}
         <p className={`${styles.paragraph} max-w-[470px] mt-0 font-black`}>
-          • 2000+ copy sold
+          • No email required (I hate when people do this)
         </p>
         <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-          <Button styles={`mt-10`} label='Get This Course' url="https://courses.fluttermapp.com/p/flutter-for-beginners?coupon_code=BLACKFRIDAY" />
+          <Button styles={`mt-10`} label='Get my copy' url={flutterChecklist} />
         </div>
       </div>
     </div>
