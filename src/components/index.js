@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import NavbarOther from "./NavbarOther";
 import SectionHeader from "./SectionHeader";
 import SectionPromo from "./SectionPromo";
-import FreeItem from "./FreeItem";
+import AppsItem from "./AppsItem";
 import SectionArticle from "./SectionArticle";
 import SectionEmail from "./SectionEmail";
 import SectionCTA from "./SectionCTA";
@@ -21,7 +21,7 @@ export {
   NavbarOther,
   SectionHeader,
   SectionPromo,
-  FreeItem,
+  AppsItem,
   SectionArticle,
   SectionEmail,
   SectionCTA,

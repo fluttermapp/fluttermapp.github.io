@@ -17,7 +17,7 @@ import {
 import Home from "./pages/Home"
 import HabitRabitPrivacyPolicy from "./pages/HabitRabitPrivacyPolicy"
 import ReadAiPrivacyPolicy from "./pages/ReadAiPrivacyPolicy"
-import Free from "./pages/Free"
+import Apps from "./pages/Apps"
 import Error from "./pages/Error"
 import Blog from "./pages/Blog"
 import { ProviderBlogArticle } from './components';
@@ -28,8 +28,8 @@ function App() {
     <Router>
       <Routes >
         <Route exact path="/" element={<Home />} />
-        <Route path="/Free" element={<Free />} />
-        <Route path="/habit-rabit-privacy-policy" element={<HabitRabitPrivacyPolicy />} />
+        <Route path="/Apps" element={<Apps />} />
+        <Route path="/habit-rabbit-privacy-policy" element={<HabitRabitPrivacyPolicy />} />
         <Route path="/read-ai-privacy-policy" element={<ReadAiPrivacyPolicy />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/404" element={<Error />} />

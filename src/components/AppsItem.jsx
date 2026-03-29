@@ -2,7 +2,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 import { useState } from "react";
 
-const FreeItem = ({ title = 'Default title', description = 'Default description', url = 'Default url', image = image }) => {
+const AppsItem = ({ title = 'Default title', description = 'Default description', url = 'Default url', image = image }) => {
 
   const [val, setVal] = useState('')
 
@@ -28,13 +28,13 @@ const FreeItem = ({ title = 'Default title', description = 'Default description'
         • {description}
       </p>
       <div style={{
-          height: 20,
-        }} />
-        <div >
-          <input style={{ width: "300px", backgroundColor: '#ebebeb', padding: '0.8rem', borderRadius: '15px' }} placeholder="Email" onChange={change} value={val}></input>
-        </div>
+        height: 20,
+      }} />
+      {/* <div >
+        <input style={{ width: "300px", backgroundColor: '#ebebeb', padding: '0.8rem', borderRadius: '15px' }} placeholder="Email" onChange={change} value={val}></input>
+      </div> */}
       <div className="flex flex-row flex-wrap sm:mt-0 mt-6">
-        <Button styles={`mt-10`} label='Get For Free' url={url+val} />
+        <Button styles={`mt-10`} label='Privacy Policy' url={url + val} />
       </div>
 
 
@@ -42,4 +42,4 @@ const FreeItem = ({ title = 'Default title', description = 'Default description'
   </section>)
 };
 
-export default FreeItem;
+export default AppsItem;

@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import roadmap from "./roadmap.png";
 import checklist from "./checklist.png";
+import habitRabbit from "./habitRabbit.jpeg";
 import foodComa from "./food_coma.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -34,6 +35,7 @@ export {
   quotes,
   roadmap,
   checklist,
+  habitRabbit,
   send,
   shield,
   star,
